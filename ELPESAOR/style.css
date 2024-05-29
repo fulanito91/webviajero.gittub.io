@@ -1,0 +1,66 @@
+#banner{
+    background: url(./imagenes/gotele.jfif);
+   
+    
+}
+#banner h1,#banner p{
+    color: black;
+}
+h2 { 
+    text-align: center;
+    
+}
+/* Ajusta el tamaño del contenedor del carrusel */
+.carrusell {
+    max-width: 700px; /* Establece el ancho máximo del carrusel */
+    margin: auto; /* Centra el carrusel en la sección */
+  }
+  
+  /* Ajusta las imágenes dentro del carrusel */
+  .carousel-item img {
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-height: 250px; /* Establece una altura máxima para las imágenes */
+  }
+
+  footer {
+    background:url(./imagenes/gotele.jfif); /* Color de fondo oscuro */
+    color: black; /* Texto en color blanco */
+    margin-top: 80px;
+  }
+  
+  footer h5 {
+    color:  black; /* Color del título */
+    margin-bottom: 1.5rem; /* Espacio debajo del título */
+  }
+  
+  footer p, footer a {
+    color: black; /* Color del texto y enlaces */
+    text-decoration: none; /* Sin subrayado en los enlaces */
+  }
+  
+  footer a:hover {
+    color:  black; /* Color al pasar el ratón por encima */
+  }
+  
+  footer .table {
+    margin-bottom: 0; /* Sin margen debajo de la tabla */
+    
+  }
+  
+  footer .table td {
+    border-top: none; /* Sin bordes superiores en las celdas */
+    padding: 0.3rem; /* Espaciado dentro de las celdas */
+  }
+  
+  footer .table td:first-child {
+    color: rgb(10, 10, 10); /* Color del primer elemento de la celda */
+  }
+  
+  /* Estilos para dispositivos pequeños */
+  @media (max-width: 768px) {
+  
+
+
+   
+
+
